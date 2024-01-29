@@ -1,7 +1,7 @@
-#container{
+#grid{
             display:grid ;
             background-color: white;
-            gap:5px;
+            grid-gap: 10px 10px;
             grid-template-areas: 
             'item-1 item-1 item-1 item-1  '
             'item-2 item-3 item-4 item-4 '
