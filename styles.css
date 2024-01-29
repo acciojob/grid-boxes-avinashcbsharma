@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+#container{
+            display:grid ;
+            background-color: white;
+            gap:5px;
+            grid-template-areas: 
+            'item-1 item-1 item-1 item-1  '
+            'item-2 item-3 item-4 item-4 '
+            'item-2 item-5 item-5 item-6 '
+            'item-2 item-7 item-8 item-9 '
+            'item-2 item-10 item-10 item-10 '
+            ;
+        }
+        .item{
+            background-color: green;
+            padding:2rem;
+            color:white;
+            font-size: 35px;
+           
+        }
+        #item-1{grid-area: item-1;}
+        #item-2{grid-area: item-2;}
+        #item-3{grid-area: item-3;}
+        #item-4{grid-area: item-4;}
+        #item-5{grid-area: item-5;}
+        #item-6{grid-area: item-6;}
+        #item-7{grid-area: item-7;}
+        #item-8{grid-area: item-8;}
+        #item-9{grid-area: item-9;}
+        #item-10{grid-area: item-10;}
