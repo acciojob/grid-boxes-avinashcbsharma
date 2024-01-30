@@ -1,7 +1,7 @@
 #grid {
         background-color: white;
       display: grid;
-      grid-gap: 5px;
+      grid-gap: 10px 10px;
       grid-template-rows:124px 124px 124px 124px 124px;
       grid-template-columns:242.5px 242.5px 242.5px 242.5px;
     }
@@ -29,7 +29,7 @@
 
     #item-4 {
       grid-row: 2 / span 1;
-      grid-column: 3 / span 2;
+      grid-column: 'span 2 / auto;
     }
 
     #item-5 {
