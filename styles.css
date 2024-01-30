@@ -3,7 +3,7 @@
       display: grid;
       grid-gap: 5px;
       grid-template-rows:124px 124px 124px 124px 124px;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns:242.5px 242.5px 242.5px 242.5px;
     }
     .items{
         font-size: 35px;
@@ -13,12 +13,12 @@
         
     }
     #item-1 {
-      grid-column:  span 4 / auto;
       grid-row: 1 / span 1;
+      grid-column:  span 4 / auto;
     }
 
     #item-2 {
-      grid-row: 2 / span 4;
+      grid-row: span 4 / auto;
       grid-column: 1 / span 1;
     }
 
