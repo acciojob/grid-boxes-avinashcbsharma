@@ -2,8 +2,8 @@
         background-color: white;
       display: grid;
       grid-gap: 10px 10px;
-      grid-template-rows:124px 124px 124px 124px 124px;
-      grid-template-columns:242.5px 242.5px 242.5px 242.5px;
+      grid-template-rows: 124px 124px 124px 124px 124px;	
+      grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
     }
     .items{
         font-size: 35px;
@@ -29,12 +29,12 @@
 
     #item-4 {
       grid-row: 2 / span 1;
-      grid-column: 'span 2 / auto;
+      grid-column: span 2 / auto;
     }
 
     #item-5 {
       grid-row: 3 / span 1;
-      grid-column: 2 / span 2;
+      grid-column: span 2 / auto;
     }
 
     #item-6 {
@@ -59,7 +59,7 @@
 
     #item-10 {
       grid-row: 5 / span 1;
-      grid-column: 2 / span 3;
+      grid-column: span 3 / auto;
     }
 
     /* Optional: Add styling to the items for better visualization */
